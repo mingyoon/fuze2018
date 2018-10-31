@@ -1,0 +1,803 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3642307, 2018-09-17T04:09:23-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: GalanoGrotesque-Light by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/light/
+ *
+ * Webfont: GalanoGrotesque-Regular by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/regular/
+ *
+ * Webfont: GalanoGrotesque-SemiBold by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/semi-bold/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3642307
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 by Ren&#x00E9; Bieder. All rights reserved.
+ *
+ * 짤 2018 MyFonts Inc
+*/
+
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+@import url("//hello.myfonts.net/count/3793c3");
+
+
+@font-face {font-family: 'GalanoGrotesque-Light';src: url('webfonts/3793C3_0_0.eot');src: url('webfonts/3793C3_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3793C3_0_0.woff2') format('woff2'),url('webfonts/3793C3_0_0.woff') format('woff'),url('webfonts/3793C3_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoGrotesque-Regular';src: url('webfonts/3793C3_1_0.eot');src: url('webfonts/3793C3_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3793C3_1_0.woff2') format('woff2'),url('webfonts/3793C3_1_0.woff') format('woff'),url('webfonts/3793C3_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoGrotesque-SemiBold';src: url('webfonts/3793C3_2_0.eot');src: url('webfonts/3793C3_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3793C3_2_0.woff2') format('woff2'),url('webfonts/3793C3_2_0.woff') format('woff'),url('webfonts/3793C3_2_0.ttf') format('truetype');}
+
+.Galano-Light {
+	font-family: GalanoGrotesque-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+.Galano-Regular {
+	font-family: GalanoGrotesque-Regular;
+	font-weight: normal;
+	font-style: normal;
+}
+.Galano-SemiBold {
+	font-family: GalanoGrotesque-SemiBold;
+	font-weight: normal;
+	font-style: normal;
+}
+.Spoqa-Regular {
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
+}
+.Spoqa-Bold {
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
+    font-weight: 600;
+}
+body {
+    font-family: GalanoGrotesque-Regular, 'Spoqa Han Sans', 'Sans-serif';
+	font-weight: normal;
+	font-style: normal;
+	background-color: #fff;
+}
+.uk-grid {
+    margin-left: 0;
+}
+.c-blue {
+    color: #304ffe;
+}
+.all-wrap {
+    width: 100%;
+}
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+.small-wrap {
+    /*width: 1200px;*/
+    /*display: inline-block;*/
+}
+.header {
+    height: 50vh;
+}
+/*nav bar*/
+.nav {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+.nav.hide {
+    top: -86px;
+}
+.nav .wrap {
+    position: relative;
+}
+.nav-top {
+    padding: 32px 0px 12px 0px;
+}
+.nav-top .logo img {
+    width: 96px;
+}
+.nav-top .menu {
+    position: absolute;
+    right: 0px;
+    top:46px;
+}
+.nav-top .menu li{
+    display: inline-block;
+    font-size: 16px;
+    color: #0e0e0e;
+    margin-right: 17px;
+}
+.nav .symbol {
+    height: 90px;
+    display: inline-block;
+    position: absolute;
+    left: -94px;
+    top: 86px;
+    transition: 0.3s;
+}
+.nav .symbol.show-item {
+    left: 0;
+}
+.nav-bottom {
+    padding: 40px 0px 42px 0px;
+    display: inline-block;
+    transition: 0.3s;
+    box-sizing: border-box;
+    /*height: 94px;*/
+}
+.nav-bottom .mobile-menu {
+    display: none;
+}
+
+.nav-bottom .menu li {
+    display: inline-block;
+    margin-right: 32px;
+    font-size: 14px;
+}
+.nav-bottom .menu .close-btn {
+    display: none;
+}
+.nav-bottom .regi-btn {
+    border-radius: 2px;
+    background-color: #2600ff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 18px;
+    position: absolute;
+    right: 0;
+    top: 113px;
+}
+
+/*nav bar end*/
+
+/*feature*/
+.header .feature-slide {
+    padding-top: 180px;
+}
+.header .feature-slide .uk-slideshow-items {
+    height: 80vh !important;
+}
+.header .feature .feature-slide {
+    /*background-color: #3256F5;*/
+    text-align: center;
+}
+.header .feature li {
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+}
+
+.header .feature li:nth-child(1) {
+    text-align: center;
+    box-sizing: border-box;
+    background-image: url('/images/feature.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+}
+.feature-slide li h1 {
+    font-size: 84px;
+    color: #fff;
+}
+.feature-slide li h3 {
+    margin-top: 20px;
+    font-size: 54px;
+}
+.feature-slide li span {
+    margin-top: 20px;
+    display: block;
+    font-size: 23px;
+}
+
+.feature-slide .customBtn {
+    font-size: 22px;
+    border: 1px solid #fff;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 40px;
+}
+.feature-btn {
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.feature-btn:nth-child(1) {
+    margin-right: 10px;
+}
+/*header end*/
+/*contents*/
+/*section1*/
+.contents .section1 {
+    margin-top: 420px;
+    background-color: #fafafa;
+}
+.contents .section1 .wrap {
+    margin: 0 auto;
+    display: block;
+    color: #333;
+    width: 48%;
+    text-align: center;
+    padding: 220px 0px 200px;
+}
+.section1 .section-title {
+    font-size: 26px;
+    margin-bottom: 35px;
+    display: inline-block;
+}
+.section1 .section-txt {
+    font-size: 16px;
+    line-height: 1.38;
+}
+.section1 .btm-arrow {
+    margin-top: 50px;
+    display: inline-block;
+}
+/*section2*/
+.line {
+    width: 45px;
+    height: 4px;
+    background-color: #2600ff;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+.subTitle {
+    font-size: 32px;
+    color: #000;
+    padding-left: 9px;
+}
+.section2 .wrap {
+    padding: 120px 0;
+}
+.section-txt {
+    padding-top: 32px;
+    line-height: 1.38;
+    font-size: 16px;
+    color: #434343;
+}
+.section2 .date-divide {
+    margin-top: 120px;
+}
+.section2 .date-divide .wide-image {
+    margin-top: 26px;
+}
+.section2 .wide-session {
+    display: inline-block;
+    width: 49%;
+    padding: 5vh 0px 5vh 76px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.session-img {
+    width: 33vw;
+}
+.session-title {
+    font-size: 16px;
+    color: #999;
+    transition: 0.3s;
+}
+.session-title.color {
+    color: #2600ff;
+}
+.small-line {
+    width: 32px;
+    height: 2px;
+    background-color: #999999;
+    transition: 0.3s;
+    display:inline-block;
+    margin: 12px 0 16px;
+}
+.small-line.color {
+    background-color: #2600ff;
+    width: 68px;
+}
+.small-line.ticketLine {
+    background-color: #2600ff;
+    width: 68px;
+}
+#d-line-ticket1.small-line.ticketLine {
+    width: 56px;
+}
+.main-title {
+    font-size: 21px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #333;
+    /*font-family: 'Spoqa Han Sans', 'Sans-serif';*/
+    /*font-weight: 600;*/
+}
+.session-speak {
+    margin-left: 10px;
+    font-size: 17px;
+}
+.session-speak.n-margin {
+    margin: 0;
+}
+.session-txt {
+    font-size: 15px;
+    line-height: 1.38;
+    color: #434343;
+}
+.section2 .txt-area {
+    margin-top: 16px;
+}
+.section2 .session-grid {
+    margin-top: 64px;
+    text-align: left !important;
+}
+.section2 .session-grid a {
+    /*display: inline-block;*/
+    width: 31%;
+    padding-left: 0;
+    margin-right: 2%;
+}
+.section2 .session-grid a:last-child {
+    margin-right: 0;
+}
+.section2 .subTitle-date {
+    font-size: 20px;
+}
+/*modal*/
+.uk-modal-body {
+    padding: 40px 40px;
+}
+.modal-center div {
+    vertical-align: top;
+}
+.modal-center .modal-title h5 {
+    font-size: 28px;
+}
+.modal-title .modal-title-time {
+    font-size: 18.5px;
+    margin-top: 8px;
+}
+.modal-title .m-line {
+    width: 32px;
+    height: 2px;
+    background-color: #2600ff;
+    display: inline-block;
+    margin: 20px 0;
+}
+.modal-center .m-time {
+    width: 28%;
+    display: inline-block;
+    margin-bottom: 15px;
+    line-height: 1.15;
+    font-size: 18.5px;
+}
+.modal-center .m-txt {
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #0e0e0e;
+}
+.modal-center .m-txt.long {
+    line-height: 1.4;
+}
+.modal-center .m-txt.last {
+    margin-bottom: 0;
+    font-size: 18.2px;
+}
+
+/*section2 end*/
+/*section3*/
+.section3 {
+    background-color: #fafafa;
+}
+.section3 .wrap {
+    padding: 128px 0 128px;
+}
+.section3 .program-grid {
+    margin: 67px -12px -6px;
+	flex-flow:row wrap;
+    /*padding-bottom: 90px;*/
+}
+.program-box {
+	width: calc(100% / 3 - 6px * 2);
+	background-color: #ffffff;
+	border: solid 1px #f2f2f2;
+	padding: 64px 57px;
+	display: inline-block;
+	/* margin-bottom: -20px; */
+	/* margin-right: 12px; */
+	transition: 0.3s;
+	cursor: pointer;
+	margin:6px;
+	box-sizing: border-box;
+}
+.program-box.uk-grid-margin {
+	margin-top: 6px;
+}
+
+.program-box:hover {
+    border-bottom: 4px solid #2600ff;
+    box-shadow: 2px 16px 24px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+}
+.program-box .program-title {
+    color: #333333;
+    font-size: 32px;
+}
+.Venue {
+    display: block;
+    font-size: 15px;
+    color: #999;
+}
+.Venue-name {
+    display: block;
+    margin-top: 4px;
+    font-size: 16.5px;
+    color: #333;
+}
+.Venue.member {
+    margin-top: 8px;
+}
+.Venue-regi-area {
+    text-align: center;
+}
+.Venue.member.regi {
+    margin-top: 20px;
+    transition: 0.3s;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #2600ff;
+    color: #2600ff;
+    transition: 0.3s;
+}
+.Venue.member.regi:hover {
+    background-color: #2600ff;
+    color: #fff;
+}
+.program-detail {
+    margin-top: 32px;
+}
+/*section3 end*/
+/*section-add2*/
+.section-add2 {
+    background-color: #fafafa;
+}
+.section-add2 .wrap {
+    padding: 120px 0;
+}
+.section-add2 .program-box {
+    margin-top: 30px;
+    width: 48.5%;
+    padding: 40px 50px;
+    box-sizing: border-box;
+    position: relative;
+    background-size: cover;
+    border: 1px solid #e0e0e0;
+    background-position: center;
+}
+.section-add2 .program-detail {
+    margin-top: 14px;
+}
+
+.section-add2 .program-box:hover {
+    border-bottom: 0;
+}
+.section-add2 .program-box .program-title {
+    font-size: 23px;
+    line-height: 1.3;
+}
+.section-add2 .program-box .program-title.Spoqa-Bold {
+    font-size: 21px;
+}
+.section-add2 .subevent-apply {
+    text-align: center;
+    margin-top: 20px;
+}
+.section-add2 .subevent-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    border: 1px solid #2600ff;
+    color: #2600ff;
+    transition: 0.3s;
+    /*position: absolute;
+    right: 20px;
+    top: 20px;*/
+}
+.section-add2 .subevent-btn:hover {
+    background-color: #2600ff;
+    color: #fff;
+    border: 1px solid #2600ff;
+}
+/*section-add*/
+.section-add {
+    padding: 128px 0;
+    background-image: url('/images/bg-add.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-add .line {
+    background-color: #fff;
+}
+.section-add .subTitle {
+    color: #fff;
+}
+.section-add .ticket-grid {
+    /*width: 90%;*/
+    margin-top: 80px;
+}
+.section-add .ticket-box {
+    background-color: #fff;
+    padding: 50px 50px;
+    transition: 0.3s;
+}
+.section-add .ticket-box div {
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+}
+.section-add .ticket-box:hover {
+    box-shadow: 2px 16px 24px 0 rgba(0, 0, 0, 0.12);
+}
+.section-add .ticket-box .ticket-price {
+    margin-top: 4px;
+    display: block;
+    font-size: 18px;
+    color: #999;
+    transition: 0.3s;
+}
+.section-add .ticket-box .ticket-price.color {
+    color: #2600ff;
+}
+.section-add .ticket-name-box {
+    width: 32%;
+    display: inline-block;
+    border-right: 2px dashed #999;
+}
+.section-add .ticket-title {
+    font-size: 32px;
+    color: #0e0e0e;
+}
+.section-add .event-box {
+    width: 60%;
+    display: inline-block;
+    /*padding-left: 8%;*/
+    padding: 10px 0px 10px 6%;
+    box-sizing: border-box;
+    color: #999;
+}
+.section-add .ticket-event {
+    display: block;
+    font-size: 20px;
+    line-height: 1.5;
+    transition: 0.3s;
+}
+.section-add .event-box.hover {
+    color: #0e0e0e;
+}
+.section-add .ticket-btn-section {
+    margin-top: 110px;
+    text-align: center;
+}
+.section-add .ticket-btn {
+    padding: 15px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.section-add .ticket-btn:hover {
+    background-color: #00000040;
+}
+
+/*section4*/
+.section4 .wrap {
+    padding: 224px 0 136px;
+}
+.section4 .speaker-grid {
+    margin-top: 63px;
+}
+.section4 .box-inner {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 60px;
+    width: 24%;
+}
+.section4 .speaker-box {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-right: 0;
+    /*background-image: url(images/pyo.svg);*/
+    background-size: 100%;
+}
+.section4 .speaker-info {
+    margin-top: 16px;
+}
+.speaker-info .speaker-name {
+    color: #0e0e0e;
+    font-size: 20px;
+}
+.speaker-info .speaker-position {
+    display: block;
+    margin-top: 6px;
+}
+/*section4 end*/
+/*artist*/
+.artist {
+    background-color: #fafafa;
+}
+.artist .wrap {
+    padding: 136px 0;
+}
+.artist .artist-grid {
+    margin-top: 63px;
+}
+.artist .box-inner {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 60px;
+    width: 19%;
+}
+.artist .artist-box {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-right: 0;
+    background-size: cover;
+}
+.artist .artist-info {
+    margin-top: 16px;
+}
+.artist-info .artist-name {
+    color: #0e0e0e;
+    font-size: 20px;
+}
+/*artist end*/
+.section5 {
+    background-image: url('images/booth.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section5 .wrap {
+    padding: 104px 0;
+}
+.section5 .booth-info {
+    background-color: #fff;
+    padding: 72px;
+    border-left: 8px solid #2600ff;
+    position: relative;
+    max-width: 1184px;
+    margin: 0 auto;
+}
+.section5 .booth-info div {
+    vertical-align: top;
+}
+.section5 .booth-info .main-txt {
+    width: 33%;
+    display: inline-block;
+}
+.section5 .booth-title {
+    font-size: 38px;
+    color: #333;
+}
+.section5 .booth-info .sub-txt {
+    width: 66%;
+    display: inline-block;
+    font-size: 15px;
+    color: #333;
+    /*font-family: 'Spoqa Han Sans', 'Sans-serif';*/
+}
+.section5 .booth-info .sub-txt p {
+    line-height: 1.71;
+}
+.section5 .sub-txt .apply-btn {
+    padding: 16px 30px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 2px;
+    background-color: #2600ff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    position: absolute;
+    bottom: 60px;
+    right: 72px;
+}
+.section5 .booth-detail {
+    margin: 84px 0 0px;
+}
+.section5 .booth-detail .detail-btm {
+    margin-top: 24px;
+}
+/*section5 end*/
+/*section6*/
+.section6 {
+    background-color: #fafafa;
+}
+.section6 .wrap {
+    padding: 148px 0;
+}
+.section6 .sponsor-title {
+    font-size: 20px;
+    color: #333;
+    display: block;
+    margin: 88px 0 16px;
+    /*text-align: left;*/
+    /*text-indent: 25px;*/
+}
+.section6 .sponsor-grid {
+    /* text-align: center; */
+	margin:0 -8px;
+}
+.section6 .spon-box {
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 18%;
+	margin:8px;
+    padding: 10px;
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.1);
+    vertical-align: top;
+}
+.section6 .spon-box img {
+    height: 90px;
+	max-width:100%;
+}
+.section6 .sm-wrap {
+    width: 90%;
+    margin: 120px auto 0;
+}
+/*footer*/
+.footer {
+    padding: 120px 0;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+}
+.footer .wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+.footer .wrap div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer .foot-logo {
+    /*padding-left: 60px;*/
+    width: 30%;
+}
+.footer .foot-abf {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.footer .foot-info {
+    width: 69%;
+    text-align: right;
+    line-height: 1.5;
+}
+/*footer end*/
+.top-btn {
+    display: none;
+}
+
+.mBr {
+    display: none;
+}
+
+.lang-hide {
+    display: none !important;
+}
